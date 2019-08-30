@@ -1,0 +1,19 @@
+//Colours
+$feinwaru: #ff594f;
+$feinwarudark: #c93d36;
+$feinwarugreen: #14b252;
+$sppd: #1E98A1;
+$lightgrey: #c5c5c5;
+$grey: #707070;
+$darkgrey: #222;
+$dwhite: #eee;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900");
+
+body {
+  font-family: "Roboto", "sans-serif";
+  background-color: $dwhite;
+}
+
+//Components
+@import "./src/components/Cookie/cookie";
